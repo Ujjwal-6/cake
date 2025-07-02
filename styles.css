@@ -1,0 +1,51 @@
+/* Cake O'Clock Custom Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8F0; /* Creamy background */
+}
+
+.navbar {
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1989&auto=format&fit=crop') 
+                no-repeat center center/cover;
+}
+
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.btn-primary {
+    background-color: #E11D48; /* Rose-500 */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #BE123C; /* Rose-600 */
+}
+
+.admin-panel {
+    display: none;
+}
+
+.modal-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.admin-indicator {
+    display: none;
+}
+
+.admin-active .admin-indicator {
+    display: inline;
+}
